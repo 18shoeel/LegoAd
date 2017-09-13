@@ -1,5 +1,14 @@
-// LegoAd
-// Starter Code
+
+int smurf1_x = 0;
+int smurf1_y = 0;
+int smurf2_x = 600;
+int smurf2_y = 300;
+int smurf3_x = 600;
+int smurf3_y = 0;
+int smurf4_x = 0;
+int smurf4_y = 300;
+int smurf5_x = 0;
+int smurf5_y = 0;
 
 void setup() {
   size(700,400);
@@ -7,42 +16,62 @@ void setup() {
   background(255,245,220);
 }
 
+ 
 void draw() {
-  // Homer
-  fill(250,193,35);    // yellow skin
-  rect(210,175,40,45); // Homer head
-  fill(245,245,245);   // off-white
-  rect(210,220,40,50); // Homer shirt
-  fill(89,79,217);     // blue jeans
-  rect(210,270,40,45); // Homer pants
 
-  // Marge
-  fill(250,193,35);    // yellow skin
-  rect(270,185,40,35); // Marge head
-  fill(41,82,240);     // blue
-  rect(270,90,40,95); // Marge hair
-  fill(177,210,75);    // green
-  rect(270,220,40,95); // Marge dress
-  
-  // Bart
-  fill(250,193,35);    // yellow skin
-  rect(330,225,40,30); // Bart head
-  fill(240,71,41);     // red-ish
-  rect(330,255,40,30); // Bart shirt
-  fill(89,79,217);     // blue jeans
-  rect(330,285,40,30); // Bart pants
-  
-  // Lisa
-  fill(250,193,35);    // yellow skin
-  rect(390,230,40,30); // Lisa head
-  fill(229,77,35);     // orange-ish
-  rect(390,260,40,55); // Lisa dress
-  
-  // Maggie
-  fill(250,193,35);    // yellow skin
-  rect(450,250,40,25); // Maggie head
-  fill(147,189,255);   // light blue
-  rect(450,275,40,40); // Maggie PJs
-  fill(255,0,0);       // red
-  ellipse(450+40/2,270,10,10); // Maggie pacifier
+
+//smurf1
+smurf1_x, smurf1_y
+fill(216,17,17);    
+rect(35,25,10,10);
+fill(17,43,216);
+rect(35,35,10,10);
+fill(255,255,255);
+rect(35,45,10,10);
+fill(216,17,17);
+rect(35,55,10,20);
+
+
+
+//smurf2
+smurf2_x, smurf2_y
+fill(255,255,255);
+rect(60,25,10,10);
+fill(17,43,216);
+rect(60,35,10,20);
+fill(255,255,255);
+rect(60,55,10,20);
+
+//Smurf3
+smurf3_x, smurf3_y
+fill(246,255,2);
+rect(85,28,10,10);
+fill(18, 1, 255);
+rect(85,35,10,15);
+fill(255,255,255);
+rect(85,50,10,15);
+fill(18,1,255);
+rect(85,60,10,9);
+fill(255,255,255);
+rect(85,65,10,9);
+
+//smurf4
+smurf4_x, smurf4_y
+fill(255,255,255);
+rect(110,25,10,10);
+fill(17,43,216);
+rect(110,35,10,20);
+fill(255,255,255);
+rect(110,55,10,20);
+
+//smurf5
+smurf5_x, smurf5_y
+fill(255,255,255);
+rect(135,25,10,10);
+fill(17,43,216);
+rect(135,35,10,20);
+fill(255,255,255);
+rect(135,55,10,20);
+
+
 }
